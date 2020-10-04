@@ -1,5 +1,7 @@
 .mynav{
     box-shadow: 0px 2px 6px darkgray;
+    background-color: rgb(255, 255, 255 / 80%) !important;
+    backdrop-filter: blur(20px);
 }
 
 .main-header{
@@ -11,7 +13,7 @@
 
 .header-text-holder, .subscribe-holder{
     text-align: center;
-    color: white;
+    color: whitesmoke;
 }
 
 .subbutton{
@@ -35,4 +37,15 @@
 
 .mycard h3{
     font-size: 1.2em;
+}
+
+.main-footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: darkgray;
+    color: white;
+}
+
+.main-footer p{
+    margin: 0;
 }
