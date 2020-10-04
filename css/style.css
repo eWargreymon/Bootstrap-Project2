@@ -14,7 +14,25 @@
     color: white;
 }
 
-.btn{
+.subbutton{
     background-color: darkgray;
     color: white;
+}
+
+.home-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.home-body-content .mycard{
+    margin-bottom: 25px;
+}
+
+.mycard:hover{
+    box-shadow: 2px 2px 10px darkgray;
+}
+
+.mycard h3{
+    font-size: 1.2em;
 }
